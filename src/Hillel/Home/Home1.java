@@ -14,7 +14,7 @@ public class Home1 {
             else {
                 System.out.println( "second greater" );
             }
-        if (y > x) {
+        if (x < y) {
             System.out.println( "first greater");
         }
         else {
