@@ -1,33 +1,43 @@
 package Hillel.Home;
+
+
 import java.util.Random;
+
 public class Home1 {
     public static void main(String[] args) {
-        int x = new Random().nextInt(100);
-        int y = new Random().nextInt(100);
-        System.out.println("Два рандомних числа - " + x + " " + y);
-        System.out.println("Cума = " + (x + y));
-        System.out.println("Різниця = " + (x - y) );
-        System.out.println("Добуток = " + (x * y));
-        if (x > y) {
-            System.out.println( "first greater");
+        int a1 = new Random().nextInt(100);
+        int a2 = new Random().nextInt(100);
+        int a3 = new Random().nextInt(100);
+        //вивести значення а1 а2 а3
+        System.out.println(a1 + " " + a2 + " " + a3);
+//вивести більше з чисел а1 і а2
+       int max;
+        if (a1 > a2) {
+            System.out.println(a1);
+            max = a1;
         }
-            else {
-                System.out.println( "second greater" );
-            }
-//        if (x < y) {
-//            System.out.println( "first greater");
-//        }
-//        else {
-//            System.out.println("second greater");
-//        }
-        if (x == y) {
-            System.out.println("Equals");
+        else {
+            System.out.println(a2);
+            max = a2;
         }
-            else {
-            System.out.println("Not Equals");
+// вивести найбільше з трьох чисел
+    if (max > a3) {
+        System.out.println(max);
+    }
+    else {
+        System.out.println(a3);
+    }
+//вивести найменше з трьох чисел
+        if (a1 < a2){
+            System.out.println();
         }
-            for (int i = 0; i < x; i++) {
-            System.out.println(i + 1);
-        }
+
+        int[] arr = new int[10];
+        for (int i = 0; i < arr.length; i++) {
+            arr[i] = new Random().nextInt(100);
+        }//вивести значення елементів масиву
+//вивести значення найбільшого елементу//вивести значення найменшого елемменту
+
+
     }
 }
