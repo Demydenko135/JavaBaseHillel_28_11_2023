@@ -14,17 +14,20 @@ public class Home1 {
             else {
                 System.out.println( "second greater" );
             }
-        if (x < y) {
-            System.out.println( "first greater");
-        }
-        else {
-            System.out.println("second greater");
-        }
+//        if (x < y) {
+//            System.out.println( "first greater");
+//        }
+//        else {
+//            System.out.println("second greater");
+//        }
         if (x == y) {
             System.out.println("Equals");
         }
             else {
             System.out.println("Not Equals");
+        }
+            for (int i = 0; i < x; i++) {
+            System.out.println(i + 1);
         }
     }
 }
