@@ -13,18 +13,26 @@ public class Home1 {
             System.out.println(arr[i]);
         }
 //вивести значення найбільшого елементу//вивести значення найменшого елемменту
-        int max = arr[0];
+//        int max = arr[0];
+//        for (int i = 1; i < arr.length; i++){
+//            if (arr[i] > max){
+//                System.out.println("елемент " + arr[i] + " більше ніж " + max);
+//                max = arr[i];
+//            }
+//        }
+//        System.out.println("_______");
+//        System.out.println(max);
+
+
+        int min = arr[0];
         for (int i = 1; i < arr.length; i++){
-            if (arr[i] > max){
-                System.out.println("елемент " + arr[i] + " більше ніж " + max);
-                max = arr[i];
+            if (arr[i] < min){
+                System.out.println("елемент " + arr[i] + " більше ніж " + min);
+                min = arr[i];
             }
         }
         System.out.println("_______");
-        System.out.println(max);
-
-
-
+        System.out.println(min);
 
     }
 }
