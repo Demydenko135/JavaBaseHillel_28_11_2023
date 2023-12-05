@@ -12,7 +12,7 @@ public class home3 {
         numbers[a]++;
         }
         for (i=0; i < numbers.length;i++){
-            System.out.println("Кількість  " + i + " : " + numbers[i]);
+            System.out.println("Кількість = " + i + " : " + numbers[i]);
 
         }
     }
