@@ -159,7 +159,3 @@ public class homework6 {
 
     }
 }
-//System.out.println("please enter integer");
-//        int intValue = scanner.nextInt();
-//        scanner.nextLine();
-//        System.out.println("int value = " + intValue);
