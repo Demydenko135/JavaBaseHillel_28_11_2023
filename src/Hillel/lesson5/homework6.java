@@ -67,6 +67,11 @@ public class homework6 {
 
         System.out.println("Кількість фрагів гравця №-5 = " + Player5_Team1);
 
+        int sum_Team1 = Player1_Team1 + Player2_Team1 + Player3_Team1 + Player4_Team1 + Player5_Team1;
+        int players1 = 5;
+        double avarage1 = (double) sum_Team1/players1;
+        System.out.println("Середнє арифметичне : " + avarage1);
+
         ////////////////////////////////////////////////////
         scanner.nextLine();
         Scanner scanner2 = new Scanner(System.in);
@@ -129,6 +134,27 @@ public class homework6 {
         }
 
         System.out.println("Кількість фрагів гравця №-5 = " + Player5_Team2 );
+
+        int sum_Team2 = Player1_Team2 + Player2_Team2 + Player3_Team2 + Player4_Team2 + Player5_Team2;
+        int players2 = 5;
+        double avarage2 = (double) sum_Team2/players2;
+        System.out.println("Середнє арифметичне : " + avarage2);
+        System.out.println(avarage1);
+        System.out.println(avarage2);
+
+        System.out.println();
+
+        if (avarage1 > avarage2){
+            System.out.println( Team1Name + " Команда перемогла");
+        } else if (avarage1 < avarage2) {
+            System.out.println(Team2Name + " Команда перемогла");
+        }
+        else{
+            System.out.println("Нічия");
+        }
+
+
+
 
 
     }
