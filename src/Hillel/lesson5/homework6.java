@@ -145,9 +145,9 @@ public class homework6 {
         System.out.println();
 
         if (avarage1 > avarage2){
-            System.out.println( Team1Name + " Команда перемогла");
+            System.out.println( "Перемогла команда " + Team1Name + " набрала " +  avarage1 + " очків" );
         } else if (avarage1 < avarage2) {
-            System.out.println(Team2Name + " Команда перемогла");
+            System.out.println( "Перемогла команда " + Team2Name + " набрала " +  avarage2 + " очків" );
         }
         else{
             System.out.println("Нічия");
