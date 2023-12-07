@@ -54,7 +54,7 @@ public class homework6 {
             System.exit(0);
         }
 
-        System.out.println("Кількість фрагів гравця №-4 = " + Player4_Team1 );
+        System.out.println("Кількість фрагів гравця №-4 = " + Player4_Team1);
 
         System.out.println("Введіть кількість фрагів гравця №-5");
         int Player5_Team1 = 0;
