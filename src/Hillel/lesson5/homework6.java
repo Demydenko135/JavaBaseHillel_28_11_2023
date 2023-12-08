@@ -15,6 +15,7 @@ public class homework6 {
         int Player1_Team1 = 0;
         if (scanner.hasNextInt()){
             Player1_Team1 = scanner.nextInt();
+            scanner.nextLine();
         }else {
             System.out.println("Ви ввели не правильні дані, перезапустіть будь ласка програму !!");
             System.exit(0);
@@ -160,6 +161,7 @@ public class homework6 {
         int sum_Team2 = Player1_Team2 + Player2_Team2 + Player3_Team2 + Player4_Team2 + Player5_Team2;
         int players2 = 5;
         double avarage2 = (double) sum_Team2/players2;
+        System.out.println();
         System.out.println("Середнє арифметичне : " + avarage2);
         System.out.println("Команда " + Team1Name + "-" + avarage1);
         System.out.println("Команда " + Team2Name + "-" + avarage2);
