@@ -10,7 +10,6 @@ public class HM6 {
         String Team1Name = scanner.nextLine();
         System.out.println("Імʼя першої команди - " + Team1Name);
 
-
         int sum = 0;
         for (int i = 1; i <= 5; i++) {
             System.out.println();
@@ -32,7 +31,6 @@ public class HM6 {
         double avarage1 = (double) sum / players1;
         System.out.println("Середнє арифметичне : " + avarage1);
 
-        ////////////////////////////////////////////////////
         System.out.println();
 
 
@@ -54,10 +52,12 @@ public class HM6 {
             }
         }
 
+
         int players2 = 5;
         double avarage2 = (double) sum / players2;
         System.out.println();
         System.out.println("Середнє арифметичне : " + avarage2);
+        System.out.println();
         System.out.println("Команда " + Team1Name + "-" + avarage1);
         System.out.println("Команда " + Team2Name + "-" + avarage2);
 
@@ -70,7 +70,5 @@ public class HM6 {
         } else {
             System.out.println("Нічия");
         }
-
-
     }
 }
