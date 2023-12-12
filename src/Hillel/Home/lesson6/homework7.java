@@ -18,7 +18,7 @@ public class homework7 {
             counter++;
             if (yourvalue == random){
                 System.out.println("Ви перемогли");
-                break;
+                break ;
             }else {
                 System.out.println("Спробуйте ще раз ");
             }
