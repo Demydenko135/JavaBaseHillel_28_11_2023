@@ -10,22 +10,33 @@ public class homework7 {
 
         int value = 3;
         int counter = 0;
-        System.out.println("Введіть своє число :");
+        System.out.println("Введіть своє число від 1 до 10 ");
+
+
 
         while (value > counter) {
-            System.out.println("Ваше число");
+
+            System.out.print("Ваше число = ");
             int yourvalue = scanner.nextInt();
             counter++;
+
+
+
+
             if (yourvalue == random){
-                System.out.println("Ви перемогли");
-                break ;
+                System.out.println("Ви перемогли число = " + random);
+                break;
             }else {
                 System.out.println("Спробуйте ще раз ");
-            }
+
 
             }
+
+
+        }
         if (value == counter) {
             System.out.println("Ви використали всі спроби,випадкове число було = " + random);
+
         }
 
 
