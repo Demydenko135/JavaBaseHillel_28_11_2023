@@ -8,7 +8,7 @@ public class homework7_13_12 {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         Random random = new Random();
-        int randomnumber = random.nextInt(11);
+        int randomnumber = random.nextInt(10) + 1 ;
         System.out.println("Я хочу пограти з тобою в гру, відгадай число від 1 до 10, в тебе 3 спроби. ");
 
 
@@ -21,7 +21,7 @@ public class homework7_13_12 {
                 if (yourchoise == randomnumber) {
                     System.out.println("Ти вгадав, ти молодець");
                     break;
-                } else {
+                } else if (chance < 3) {
                     System.out.println("Твоя спроба не вірна, спробуй ще раз друже");
                 }
 
