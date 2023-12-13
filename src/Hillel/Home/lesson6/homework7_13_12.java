@@ -34,7 +34,7 @@ public class homework7_13_12 {
 
         }
 
-            System.out.println("Гра завершена, загадане число було : " + randomnumber);
+        System.out.println("Гра завершена, загадане число було : " + randomnumber);
 
     }
 }
