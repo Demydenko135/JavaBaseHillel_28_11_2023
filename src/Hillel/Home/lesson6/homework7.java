@@ -11,40 +11,31 @@ public class homework7 {
         int value = 3;
         int counter = 0;
         System.out.println("Введіть своє число від 1 до 10 ");
-
-
+        if (scanner.hasNextInt()) {
+        } else {
+            System.out.println("Не правильні дані, перезапустіть програму");
+            System.exit(0);
+        }
 
         while (value > counter) {
 
-            System.out.print("Ваше число = ");
+//            System.out.print("Ваше число = ");
             int yourvalue = scanner.nextInt();
             counter++;
 
-
-
-
-            if (yourvalue == random){
-                System.out.println("Ви перемогли число = " + random);
+            if (yourvalue == random) {
+                System.out.println("Ви використали всі спроби,випадкове число було = " + random);
                 break;
-            }else {
+            } else {
                 System.out.println("Спробуйте ще раз ");
-
-
+//                if (counter == 3) {
+//                    System.out.println("Ви використали всі спроби,випадкове число було = " + random);
+//                    break;
             }
 
-
         }
-        if (value == counter) {
-            System.out.println("Ви використали всі спроби,випадкове число було = " + random);
-
-        }
-
-
-
-
-
-
 
     }
 
-}
+    }
+

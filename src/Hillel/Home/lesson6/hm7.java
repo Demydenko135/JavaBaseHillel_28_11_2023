@@ -23,7 +23,11 @@ public class hm7 {
                     break; // Вихід з циклу, якщо число вгадане
                 } else {
                     System.out.println("Неправильно. Спробуйте ще раз.");
+                    if (attempt == 3) {
+//                        System.out.println("Ви використали всі спроби,випадкове число було = " + random);
+                        break;}
                 }
+
             } else {
                 System.out.println("Будь ласка, введіть ціле число.");
                 scanner.next(); // Очистка введених даних
