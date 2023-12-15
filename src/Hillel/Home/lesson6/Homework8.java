@@ -2,34 +2,48 @@ package Hillel.Home.lesson6;
 
 public class Homework8 {
     public static void main(String[] args) {
-        for (int i = 1; i <= 100; i++) {
-            boolean containsFourOrNine = false;
+                int number = 1;
+                int goal = 100;
+                int current = 0;
+                int counter = 0;
+                int i1 = number % 10;
+                int i2 = (number / 10) % 10;
+                int i3 = number / 100;
 
-            for (int j = i; j > 0; j /= 10) {
-                int digit = j % 10;
-                if (digit == 4 || digit == 9) {
-                    containsFourOrNine = true;
-                    continue;
+                while (current < goal) {
+                    if (i1 != 4 && i1 != 9 && i2 != 4 && i2 != 9 && i3 != 4 && i3 != 9) {
+                        System.out.println(number);
+                        current++;
+                        counter++;
+                    }
+                    number++;
+                    i1 = number % 10;
+                    i2 = (number / 10) % 10;
+                    i3 = number / 100;
                 }
-            }
-
-            if (!containsFourOrNine) {
-                System.out.println(i);
+        System.out.println( "Загальна кількість шатлів = " +  counter);
             }
         }
 
-        }
-
-        }
-
-
-//        System.out.println(counter);
 
 
 
 
 
 
-//    У Японії числа 4 та 9 вважаються нещасливими. Вам потрібно пронумерувати 100 космічних шатлів для перевезення людей на Марс так,
-//        щоб у номерах шатлів не траплялося нещасливих чисел.
-//        Напишіть функцію, яка виводить усі номери таких шатлів.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
