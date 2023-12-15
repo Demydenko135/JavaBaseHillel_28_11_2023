@@ -23,6 +23,8 @@ public class homework7_13_12 {
                     break;
                 } else if (chance < 3) {
                     System.out.println("Твоя спроба не вірна, спробуй ще раз друже");
+
+//
                 }
 
             } else {

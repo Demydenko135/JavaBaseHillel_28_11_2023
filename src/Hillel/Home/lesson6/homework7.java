@@ -1,6 +1,5 @@
 package Hillel.Home.lesson6;
 
-import javax.crypto.spec.PSource;
 import java.util.Scanner;
 
 public class homework7 {
