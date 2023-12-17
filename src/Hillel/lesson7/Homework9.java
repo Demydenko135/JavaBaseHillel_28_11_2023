@@ -10,18 +10,19 @@ public class Homework9 {
 
 
         for (int i = 0; i < teamOne.length; i++) {
-            teamOne[i] = (int) (Math.random() * (40 - 18 + 1) + 18);
-            teamTwo[i] = (int) (Math.random() * (40 - 18 + 1) + 18);
-
-
-        }
+            for (int j = 0; j < teamTwo.length ; j++) {
+                teamOne[i] = (int) (Math.random() * (40 - 18 + 1) + 18);
+                teamTwo[j] = (int) (Math.random() * (40 - 18 + 1) + 18);
+            }
+            }
         System.out.print ( Arrays.toString(teamOne) );
         System.out.println();
         System.out.print(Arrays.toString(teamTwo) );
+        }
 
         }
 
-    }
+
 
 
 //   Не сильно зрозумів чому саме при такій формулі воно видає правильний діапазон.
