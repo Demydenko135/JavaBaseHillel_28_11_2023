@@ -6,29 +6,25 @@ public class Homework9 {
     public static void main(String[] args) {
         int[] teamOne = new int[25];
         int[] teamTwo = new int[25];
-
+        int avg1 = 0;
+        int avg2 = 0;
+        int sum = 0;
+        int sum2 = 0;
 
 
         for (int i = 0; i < teamOne.length; i++) {
-            for (int j = 0; j < teamTwo.length ; j++) {
-                teamOne[i] = (int) (Math.random() * (40 - 18 + 1) + 18);
-                teamTwo[j] = (int) (Math.random() * (40 - 18 + 1) + 18);
+            teamOne[i] = (int) (Math.random() * (40 - 18 + 1) + 18);
+            teamTwo[i] = (int) (Math.random() * (40 - 18 + 1) + 18);
+           sum += teamOne[i];
+           sum2 += teamTwo[i];
             }
-            }
-        System.out.print ( Arrays.toString(teamOne) );
+            avg1 = sum / teamOne.length;
+        avg2 = sum2/ teamTwo.length;
+
+
+        System.out.print(Arrays.toString(teamOne) + " Середній вік гравців першої команди : " + avg1);
         System.out.println();
-        System.out.print(Arrays.toString(teamTwo) );
-        }
+        System.out.println(Arrays.toString(teamTwo)+ "Середній вік гравців другої команди : " +avg2);
 
-        }
-
-
-
-
-//   Не сильно зрозумів чому саме при такій формулі воно видає правильний діапазон.
-
-//    Є дві команди регбі з 25 гравців різного віку у кожній.
-//
-//        Вік беремо випадковим чином в діапазоні від 18 до 40.
-//
-//        Виведіть у двох рядках вік гравців кожної команди.
+    }
+    }
