@@ -24,7 +24,7 @@ public class Homework9 {
 
         System.out.print(Arrays.toString(teamOne) + " Середній вік гравців першої команди : " + avg1);
         System.out.println();
-        System.out.println(Arrays.toString(teamTwo)+ "Середній вік гравців другої команди : " +avg2);
+        System.out.println(Arrays.toString(teamTwo)+ " Середній вік гравців другої команди : " +avg2);
 
     }
     }
