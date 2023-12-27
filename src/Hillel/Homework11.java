@@ -3,12 +3,12 @@ package Hillel;
 import java.util.Arrays;
 import java.util.Scanner;
 
-public class Lesson9 {
+public class Homework11 {
     public static void main(String[] args) {
-        System.out.println("Ввведіть M значення : ");
-        Scanner scanner = new Scanner(System.in);
         int M = 0;
         int N = 0;
+        System.out.println("Ввведіть M значення : ");
+        Scanner scanner = new Scanner(System.in);
         if (scanner.hasNextInt()) {
             M = scanner.nextInt();
             scanner.nextLine();
