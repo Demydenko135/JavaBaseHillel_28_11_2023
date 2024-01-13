@@ -19,9 +19,9 @@ public class Person {
     }
 
     public static void main(String[] args) {
-        Person Guy1 = new Person("Will", "Smith", "New York", "2936729462846");
-        Person Guy2 = new Person("Jackie", "Chan", "Shanghai", "12312412412");
-        Person Guy3 = new Person("Sherlock", "Holmes", "London", "37742123513");
+        Person Guy1 = new Person("Павло", "Демиденко", "Рівне", "09875623223");
+        Person Guy2 = new Person("Петро", "Щур", "Львів", "09756242124");
+        Person Guy3 = new Person("Василь", "Джонсон", "Харків", "0768572645");
 
         System.out.println(Guy1.personInfo());
         System.out.println(Guy2.personInfo());
