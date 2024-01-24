@@ -2,7 +2,6 @@ package Hillel.Home;
 public class Homework13 {
     static class MusicStyles {
         public void playMusic() {
-            System.out.println("Playing generic music");
         }
     }
 
