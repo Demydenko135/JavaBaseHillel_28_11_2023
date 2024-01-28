@@ -4,22 +4,24 @@ public class Homework14 {
 
     interface Smartphones {
         void call();
+
         void sms();
+
         void internet();
     }
 
     static class Androids implements Smartphones {
-        @Override
+
         public void call() {
             System.out.println("Making a call on an Android phone");
         }
 
-        @Override
+
         public void sms() {
             System.out.println("Sending an SMS on an Android phone");
         }
 
-        @Override
+
         public void internet() {
             System.out.println("Opening the internet on an Android phone");
         }
@@ -30,17 +32,17 @@ public class Homework14 {
     }
 
     static class iPhones implements Smartphones {
-        @Override
+
         public void call() {
             System.out.println("Making a call on an iPhone");
         }
 
-        @Override
+
         public void sms() {
             System.out.println("Sending an SMS on an iPhone");
         }
 
-        @Override
+
         public void internet() {
             System.out.println("Opening the internet on an iPhone");
         }
